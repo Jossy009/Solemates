@@ -1,0 +1,49 @@
+import React from "react";
+import line3 from "./line-3.svg";
+import "./style.css";
+
+export const SignUp = () => {
+  return (
+    <div className="sign-up">
+      <div className="div">
+        <div className="text-wrapper">SOLEMATES</div>
+
+        <p className="p">STYLISH, COMFORTABLE AND MADE JUST FOR YOU</p>
+
+        <div className="overlap">
+          <div className="text-wrapper-2">Sign in</div>
+
+          <div className="text-wrapper-3">Username</div>
+
+          <div className="text-wrapper-4">Phone Number</div>
+
+          <div className="text-wrapper-5">Email</div>
+
+          <div className="text-wrapper-6">Password</div>
+
+          <div className="text-wrapper-7">Confirm Password</div>
+
+          <div className="text-wrapper-8">Sign up</div>
+
+          <img className="line" alt="Line" src={line3} />
+
+          <div className="rectangle" />
+
+          <div className="rectangle-2" />
+
+          <div className="rectangle-3" />
+
+          <div className="rectangle-4" />
+
+          <div className="rectangle-5" />
+
+          <div className="group">
+            <div className="overlap-group">
+              <div className="text-wrapper-9">Sign Up</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};

@@ -1,0 +1,122 @@
+.landing-page {
+  background-color: rgba(255, 255, 255, 1.0);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.landing-page .div {
+  background: linear-gradient(
+    180deg,
+    rgba(248, 245, 242, 1) 0%,
+    rgba(227, 213, 202, 1) 50%,
+    rgba(139, 94, 60, 1) 100%
+  );
+  background-color: rgba(255, 255, 255, 1.0);
+  height: 852px;
+  position: relative;
+  width: 393px;
+}
+
+.landing-page .FIND-YOUR-SOLEMATES {
+  color: transparent;
+  font-family: "Montaga-Regular", Helvetica;
+  font-size: 40px;
+  font-weight: 400;
+  left: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 301px;
+  width: 343px;
+}
+
+.landing-page .text-wrapper {
+  color: #b7afa8;
+}
+
+.landing-page .span {
+  color: #000000;
+}
+
+.landing-page .text-wrapper-2 {
+  color: #8b5e3c;
+}
+
+.landing-page .p {
+  color: #8b5e3c;
+  font-family: "Montagu Slab-Regular", Helvetica;
+  font-size: 10px;
+  font-weight: 400;
+  left: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 406px;
+  width: 343px;
+}
+
+.landing-page .group {
+  height: 66px;
+  left: 112px;
+  position: absolute;
+  top: 499px;
+  width: 172px;
+}
+
+.landing-page .overlap-group {
+  background-color: #8b5e3c;
+  border-radius: 15px;
+  box-shadow: 0px 4px 4px #00000040;
+  height: 66px;
+  position: relative;
+  width: 170px;
+}
+
+.landing-page .text-wrapper-3 {
+  color: #e3d5ca;
+  font-family: "Montaga-Regular", Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  left: 56px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 24px;
+  white-space: nowrap;
+}
+
+.landing-page .line {
+  height: 1px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 648px;
+  width: 393px;
+}
+
+.landing-page .component-2 {
+  background-image: url(./group-5-2.png) !important;
+  left: 22px !important;
+  position: absolute !important;
+  top: 699px !important;
+}
+
+.landing-page .component-3 {
+  background-image: url(./group-6-3.png) !important;
+  left: 22px !important;
+  position: absolute !important;
+  top: 79px !important;
+}
+
+.landing-page .chatgpt-image-apr {
+  height: 127px;
+  left: 245px;
+  position: absolute;
+  top: 116px;
+  width: 127px;
+}

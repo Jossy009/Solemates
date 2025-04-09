@@ -1,0 +1,40 @@
+import React from "react";
+import { Component } from "./Component";
+import { PropertyFrameWrapper } from "./PropertyFrameWrapper";
+import chatgptImageApr32025104929Pm1 from "./chatgpt-image-apr-3-2025-10-49-29-PM-1.png";
+import line1 from "./line-1.svg";
+import "./style.css";
+
+export const LandingPage = () => {
+  return (
+    <div className="landing-page">
+      <div className="div">
+        <p className="FIND-YOUR-SOLEMATES">
+          <span className="text-wrapper">FIND YOUR</span>
+
+          <span className="span">&nbsp;</span>
+
+          <span className="text-wrapper-2">SOLEMATES</span>
+        </p>
+
+        <p className="p">STYLISH, COMFORTABLE AND MADE JUST FOR YOU</p>
+
+        <div className="group">
+          <div className="overlap-group">
+            <div className="text-wrapper-3">SIGN IN</div>
+          </div>
+        </div>
+
+        <img className="line" alt="Line" src={line1} />
+
+        <Component className="component-2" property1="frame-1" />
+        <PropertyFrameWrapper className="component-3" property1="frame-13" />
+        <img
+          className="chatgpt-image-apr"
+          alt="Chatgpt image apr"
+          src={chatgptImageApr32025104929Pm1}
+        />
+      </div>
+    </div>
+  );
+};
